@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+</head>
+<body>
+    <!-- Course registration form -->
+    <h1>Course Registration Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Student Details</legend>
+            <p>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Choose a course</option>
+                    <option value="html">HTML Fundamentals</option>
+                    <option value="python">Python Programming</option>
+                    <option value="cybersecurity">Cybersecurity Basics</option>
+                </select>
+            </p>
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+
+    <!-- Available course schedules -->
+    <h2>Available Course Schedules</h2>
+    <table border="1">
+        <thead><tr><th>Day</th><th>Time</th><th>Instructor</th></tr></thead>
+        <tbody>
+            <tr><td>Monday</td><td>10:00 AM - 12:00 PM</td><td>Priya Sharma</td></tr>
+            <tr><td>Wednesday</td><td>2:00 PM - 4:00 PM</td><td>Arun Mehta</td></tr>
+            <tr><td>Saturday</td><td>11:00 AM - 1:00 PM</td><td>Neha Singh</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
