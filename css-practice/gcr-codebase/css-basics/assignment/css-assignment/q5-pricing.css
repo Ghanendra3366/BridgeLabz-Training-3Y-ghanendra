@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.pricing-section {
+    padding: 60px 20px;
+}
+
+.pricing-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.plan {
+    flex: 1 1 260px;
+    max-width: 320px;
+    background: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 25px 20px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plan:hover {
+    transform: scale(1.03);
+    background: #eff6ff;
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.12);
+}
+
+.plan h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    line-height: 2;
+    color: #334155;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.price span {
+    font-size: 0.9rem;
+    color: #475569;
+}
+
+.plan a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 18px;
+    background: #2563eb;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.popular {
+    border: 3px solid #f59e0b;
+    background: #fff7ed;
+}
+
+.popular a {
+    background: #f59e0b;
+}
