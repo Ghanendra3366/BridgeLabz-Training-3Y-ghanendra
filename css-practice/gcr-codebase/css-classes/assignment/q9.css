@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fbf7ef;
+}
+
+.effects {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.effect-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.grow-btn {
+  padding: 12px 24px;
+  border: none;
+  background: #2f6f6b;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.grow-btn:hover {
+  background: #c46161;
+  transform: scale(1.08) rotate(5deg);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.grow-btn:focus {
+  outline: 3px solid #ffd166;
+}

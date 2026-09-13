@@ -1,0 +1,34 @@
+/* Element selector */
+body { font-family: Arial, sans-serif; margin: 0; background: #f8f6ee; color: #222; }
+header { background: #1a3d55; color: white; padding: 20px; text-align: center; }
+footer { background: #1a3d55; color: white; padding: 15px; text-align: center; }
+
+/* Class selector */
+.selector-page { padding: 30px 20px; }
+.example-block { margin: 20px 0; }
+.info-text { color: #385c58; }
+.highlighted { background: #ffe0b5; padding: 10px; }
+
+/* ID selector */
+#intro { color: #9b1c31; font-weight: bold; }
+
+/* Attribute selector */
+input[type="text"] { border: 2px solid #1a3d55; padding: 8px; }
+a[href^="https"] { color: #b04a4a; }
+
+/* Descendant selector */
+.selector-combinators p { color: #204260; }
+
+/* Child selector */
+.selector-combinators > span { color: #8d4b3c; }
+
+/* Adjacent sibling selector */
+.info-text + .info-text { margin-top: 12px; }
+
+/* General sibling selector */
+.selector-combinators ~ a { display: block; margin-top: 12px; }
+
+/* Pseudo-class */
+a:hover { text-decoration: underline; }
+input:focus { outline: 2px dashed #b04a4a; }
+.item-list li:nth-child(2) { background: #d8f3dc; }
