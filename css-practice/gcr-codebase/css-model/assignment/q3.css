@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1c1c1c;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #1b3b4f;
+    color: white;
+    padding: 16px;
+    z-index: 2;
+    text-align: center;
+}
+
+.gradient-page {
+    padding-top: 70px;
+}
+
+.linear-gradient {
+    min-height: 250px;
+    padding: 80px 30px;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    background-attachment: fixed;
+    color: #442727;
+    text-align: center;
+}
+
+.radial-gradient {
+    min-height: 250px;
+    padding: 80px 30px;
+    line-height: 1.6;
+    background: radial-gradient(circle, #b9fbc0, #90e0ef);
+    color: #112d3c;
+    text-align: center;
+}
+
+.fixed-footer {
+    background: #1b3b4f;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+}

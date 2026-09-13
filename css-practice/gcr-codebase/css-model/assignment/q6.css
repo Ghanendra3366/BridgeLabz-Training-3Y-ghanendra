@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transform-showcase {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.transform-box {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #233142;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.rotate-box:hover { transform: rotate(45deg); }
+.scale-box:hover { transform: scale(1.2); }
+.translate-box:hover { transform: translateY(-30px); }
+.skew-box:hover { transform: skew(-20deg); }

@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef0f3;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    width: 210px;
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #cfcfcf;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.profile-card:nth-child(1) { box-shadow: 2px 2px 8px gray; }
+.profile-card:nth-child(2) { box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+.profile-card:nth-child(3) { box-shadow: 6px 6px 16px #627d98; }
+
+.profile-card h2 {
+    text-shadow: 2px 2px 4px #79818d;
+}
+
+.profile-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 26px rgba(0,0,0,0.3);
+}

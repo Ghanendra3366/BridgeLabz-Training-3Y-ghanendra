@@ -1,0 +1,24 @@
+/* Attribute selectors */
+input[type="text"] { border: 2px solid #345; padding: 8px; }
+a[href^="https"] { color: #b13e3e; }
+
+/* Descendant selector */
+.selector-demo .child { color: #234; }
+
+/* Child combinator */
+.selector-demo > h2 { color: #234b6e; }
+
+/* General sibling combinator */
+h2 ~ a { display: block; margin-top: 10px; }
+
+/* Adjacent sibling combinator */
+input + a { margin-left: 10px; }
+
+/* Pseudo-classes */
+a:hover { text-decoration: underline; }
+input:focus { outline: 2px solid #b13e3e; }
+.item-list li:nth-child(2n) { background: #eaf3f9; }
+
+/* Pseudo-elements */
+.item-list li::before { content: "• "; color: #b13e3e; }
+.item-list li::after { content: ""; display: block; }

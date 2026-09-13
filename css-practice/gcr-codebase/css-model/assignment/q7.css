@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffaf3;
+    color: #222;
+}
+
+.article {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    text-align: left;
+    background: white;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #233142;
+}
+
+.intro {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+
+.text {
+    font-size: 1rem;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+mark {
+    background-color: #ffe891;
+    color: #332b15;
+}
+
+strong {
+    color: #a44545;
+}
+
+em {
+    color: #2f8f78;
+}
+
+.article p::first-letter {
+    font-size: 1.8rem;
+    color: #a44545;
+    font-weight: bold;
+}
+
+.article p::first-line {
+    color: #233142;
+}
