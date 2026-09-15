@@ -1,0 +1,4 @@
+/* Filter Comparison Layout */
+* { box-sizing: border-box; } body { margin: 0; font-family: Arial, sans-serif; color: #23312c; background: #eef2eb; } main { max-width: 1100px; margin: auto; padding: 55px 6%; } .eyebrow { color: #a64c36; font-weight: bold; text-transform: uppercase; letter-spacing: .1em; } h1 { max-width: 650px; font-size: clamp(2rem, 5vw, 4rem); }
+.comparison { display: flex; gap: 24px; margin-top: 42px; } figure { flex: 1; margin: 0; background: #fff; } figure img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; } .filtered { filter: brightness(1.55) contrast(.8); transition: filter .5s ease; } figure:hover .filtered { filter: none; } figcaption { padding: 16px; font-weight: bold; }
+@media (max-width: 700px) { .comparison { flex-direction: column; } }

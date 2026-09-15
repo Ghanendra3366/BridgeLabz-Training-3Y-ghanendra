@@ -1,0 +1,14 @@
+/* Responsive Image Filter Gallery */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #17212b; background: #eef4f1; }
+.page-header { padding: 32px 6%; text-align: center; background: #123c3a; color: #fff; }
+.page-header h1 { margin: 0 0 8px; }
+.page-header p { margin: 0; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; padding: 40px 6%; }
+figure { margin: 0; overflow: hidden; background: #fff; box-shadow: 0 8px 20px #123c3a22; }
+figure img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: filter .4s ease, transform .4s ease; }
+figure:hover img { filter: none; transform: scale(1.03); }
+figcaption { padding: 14px; font-weight: bold; text-align: center; }
+.blur { filter: blur(3px); } .grayscale { filter: grayscale(100%); } .sepia { filter: sepia(90%); }
+.brightness { filter: brightness(1.5); } .contrast { filter: contrast(1.7); } .hue { filter: hue-rotate(90deg); }
+@media (max-width: 600px) { .gallery { grid-template-columns: 1fr; } }
