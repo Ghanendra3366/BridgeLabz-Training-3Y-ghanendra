@@ -1,0 +1,3 @@
+/* Custom theme variables override Bootstrap defaults without changing its grid. */
+:root { --bs-primary: #b34d35; --bs-primary-rgb: 179, 77, 53; --bs-font-sans-serif: 'DM Sans', sans-serif; --ink: #24312b; }
+body { color: var(--ink); background: #fbf7ef; font-family: var(--bs-font-sans-serif); } h1, h2, .brand { font-family: 'Playfair Display', serif; } .brand { color: var(--ink); font-size: 1.6rem; } nav a { color: var(--ink); text-decoration: none; } .accent { color: var(--bs-primary); } footer { background: var(--ink); color: #fff; } .card { transition: transform .25s; } .card:hover { transform: translateY(-5px); }

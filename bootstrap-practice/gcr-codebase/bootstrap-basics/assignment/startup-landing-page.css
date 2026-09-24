@@ -1,0 +1,7 @@
+/* Startup landing page custom theme. Bootstrap supplies layout utilities. */
+:root { --ink: #102a43; --mint: #d9f2e6; --gold: #f4c95d; }
+body { color: var(--ink); background: #f8fbf8; }
+.site-header, footer { background: var(--ink); } .hero { background: var(--mint); }
+.eyebrow { color: #237a57; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.feature { border: 1px solid #cfe2d8; background: #fff; transition: transform .25s, box-shadow .25s; }
+.feature:hover { transform: translateY(-5px); box-shadow: 0 .75rem 1.5rem #102a4318; }

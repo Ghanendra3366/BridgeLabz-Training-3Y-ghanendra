@@ -1,0 +1,2 @@
+/* The warm palette complements Bootstrap's table, list-group, and figure components. */
+body { color: #35291f; background: #fffaf2; } .hero { background: linear-gradient(135deg, #5d2f24, #a85c34); } .table { --bs-table-bg: #fff; } .list-group-item { background: #fffdf8; }

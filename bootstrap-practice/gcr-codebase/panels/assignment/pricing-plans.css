@@ -1,0 +1,2 @@
+/* Cards are responsive with col-md-4 and gain a subtle lift on hover. */
+body { background: #f7f9fc; color: #172b4d; } .plan-card { transition: transform .25s, box-shadow .25s; } .plan-card:hover { transform: translateY(-8px); box-shadow: 0 1rem 2rem #172b4d30 !important; }

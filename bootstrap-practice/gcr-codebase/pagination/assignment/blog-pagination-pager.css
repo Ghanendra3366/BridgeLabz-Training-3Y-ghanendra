@@ -1,0 +1,2 @@
+/* Pagination stays centered with Bootstrap's justify-content-center utility. */
+body { background: #f4f6f8; color: #25364a; } article > div { transition: transform .25s, box-shadow .25s; } article > div:hover { transform: translateY(-4px); box-shadow: 0 .75rem 1.5rem #25364a18; }

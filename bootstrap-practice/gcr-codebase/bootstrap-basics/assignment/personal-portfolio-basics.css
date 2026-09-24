@@ -1,0 +1,2 @@
+/* Portfolio-specific styling; Bootstrap handles spacing, typography, and layout. */
+.profile-image { width: 260px; height: 260px; object-fit: cover; border: 8px solid #fff; box-shadow: 0 .75rem 1.5rem #21252922; }

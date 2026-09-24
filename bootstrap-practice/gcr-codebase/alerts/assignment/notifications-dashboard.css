@@ -1,0 +1,2 @@
+/* Bootstrap alerts provide contextual colors; this adds a calm dashboard canvas. */
+body { background: #f2f5f7; color: #263238; } .summary-well { border-color: #dce3e8 !important; }

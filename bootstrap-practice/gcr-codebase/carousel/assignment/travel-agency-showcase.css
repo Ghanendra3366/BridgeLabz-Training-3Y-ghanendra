@@ -1,0 +1,2 @@
+/* Carousel images have a stable height while Bootstrap keeps the controls accessible. */
+body { color: #183044; } .carousel-item img { height: min(70vh, 620px); min-height: 420px; object-fit: cover; filter: brightness(.72); } .carousel-caption { bottom: 12%; text-shadow: 0 2px 12px #000; } .carousel-caption h1, .carousel-caption h2 { font-size: clamp(2rem, 5vw, 4rem); font-weight: 700; } .progress { height: 1.25rem; }

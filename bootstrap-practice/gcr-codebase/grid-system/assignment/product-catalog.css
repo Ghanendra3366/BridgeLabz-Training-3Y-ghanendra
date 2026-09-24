@@ -1,0 +1,2 @@
+/* Product cards use Bootstrap's responsive row and col-md-3 grid. */
+body { background: #f8f7f2; } .product-card { transition: transform .25s, box-shadow .25s; } .product-card:hover { transform: translateY(-6px); box-shadow: 0 1rem 2rem #21252925 !important; } .card-img-top { height: 210px; object-fit: cover; }

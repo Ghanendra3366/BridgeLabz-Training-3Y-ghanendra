@@ -1,0 +1,2 @@
+/* Badges communicate priority and counts while Bootstrap handles their color variants. */
+body { background: #eef2f6; color: #1d2b3a; } .list-group-item { transition: background .2s; } .list-group-item:hover { background: #f7faff; }
