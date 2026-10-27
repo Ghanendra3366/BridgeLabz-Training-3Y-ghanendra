@@ -1,0 +1,15 @@
+"use strict";
+
+// Predicted output order:
+// Script start
+// Script end
+// Promise callback
+// Timeout callback
+console.log("Script start");
+
+setTimeout(() => console.log("Timeout callback"), 0);
+Promise.resolve().then(() => console.log("Promise callback"));
+
+console.log("Script end");
+
+// The synchronous script completes first, then the microtask queue drains before timer macrotasks.
