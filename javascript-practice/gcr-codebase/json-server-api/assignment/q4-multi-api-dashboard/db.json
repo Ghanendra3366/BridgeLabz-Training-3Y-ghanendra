@@ -1,0 +1,17 @@
+{
+  "users": [
+    { "id": 1, "name": "Asha" }, { "id": 2, "name": "Dev" },
+    { "id": 3, "name": "Mira" }, { "id": 4, "name": "Rohan" },
+    { "id": 5, "name": "Nina" }, { "id": 6, "name": "Kabir" }
+  ],
+  "orders": [
+    { "id": 1, "total": 1200 }, { "id": 2, "total": 840 },
+    { "id": 3, "total": 2999 }, { "id": 4, "total": 1600 },
+    { "id": 5, "total": 750 }
+  ],
+  "products": [
+    { "id": 1, "name": "Laptop" }, { "id": 2, "name": "Lamp" },
+    { "id": 3, "name": "Book" }, { "id": 4, "name": "Chair" },
+    { "id": 5, "name": "Keyboard" }
+  ]
+}

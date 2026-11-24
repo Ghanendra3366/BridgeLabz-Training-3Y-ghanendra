@@ -1,0 +1,9 @@
+{
+  "products": [
+    { "id": 1, "name": "Wireless Headphones", "price": 2499, "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=300&q=80" },
+    { "id": 2, "name": "Mechanical Keyboard", "price": 4599, "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=300&q=80" },
+    { "id": 3, "name": "Smart Fitness Watch", "price": 6999, "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=300&q=80" },
+    { "id": 4, "name": "Travel Backpack", "price": 1899, "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=300&q=80" },
+    { "id": 5, "name": "Desk Study Lamp", "price": 1299, "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=300&q=80" }
+  ]
+}

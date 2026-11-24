@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Review pull requests", "priority": "high", "completed": false },
+    { "id": 2, "title": "Update course outline", "priority": "medium", "completed": true },
+    { "id": 3, "title": "Prepare test scenarios", "priority": "low", "completed": false },
+    { "id": 4, "title": "Publish release notes", "priority": "high", "completed": true },
+    { "id": 5, "title": "Organize design review", "priority": "medium", "completed": false }
+  ]
+}

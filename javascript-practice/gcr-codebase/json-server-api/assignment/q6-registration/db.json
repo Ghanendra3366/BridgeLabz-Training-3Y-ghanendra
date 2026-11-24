@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "name": "Asha Patel", "email": "asha@gmail.com", "password": "12345678" },
+    { "id": 2, "name": "Dev Shah", "email": "dev@gmail.com", "password": "12345678" },
+    { "id": 3, "name": "Mira Das", "email": "mira@gmail.com", "password": "12345678" },
+    { "id": 4, "name": "Rohan Iyer", "email": "rohan@gmail.com", "password": "12345678" },
+    { "id": 5, "name": "Nina Roy", "email": "nina@gmail.com", "password": "12345678" }
+  ]
+}

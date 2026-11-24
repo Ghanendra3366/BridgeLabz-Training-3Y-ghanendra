@@ -1,0 +1,10 @@
+{
+  "timetable": [
+    { "id": 1, "day": "Monday", "subject": "Data Structures", "faculty": "Dr. Kavita", "time": "09:00 AM" },
+    { "id": 2, "day": "Monday", "subject": "Database Systems", "faculty": "Prof. Nair", "time": "11:00 AM" },
+    { "id": 3, "day": "Tuesday", "subject": "Operating Systems", "faculty": "Dr. Mehta", "time": "10:00 AM" },
+    { "id": 4, "day": "Wednesday", "subject": "Computer Networks", "faculty": "Prof. Rao", "time": "12:00 PM" },
+    { "id": 5, "day": "Thursday", "subject": "Software Engineering", "faculty": "Dr. Shah", "time": "09:30 AM" },
+    { "id": 6, "day": "Friday", "subject": "Web Development", "faculty": "Prof. Das", "time": "02:00 PM" }
+  ]
+}
